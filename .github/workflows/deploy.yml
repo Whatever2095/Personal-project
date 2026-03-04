@@ -29,18 +29,20 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata
+      - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: type=sha,format=long
 
-      - name: Build and push
+      - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./digital-art-gallery/src
-	  file: ./digital-art-gallery/src/Dockerfile
+          # This tells Docker where to run the build (where your package.json is)
+          context: ./digital-art-gallery
+          # This tells Docker exactly where to find the Dockerfile
+          file: ./digital-art-gallery/src/Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
