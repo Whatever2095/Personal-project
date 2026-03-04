@@ -40,7 +40,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           # This tells Docker where to run the build (where your package.json is)
-          context: ./digital-art-gallery
+          context: ./digital-art-gallery/src
           # This tells Docker exactly where to find the Dockerfile
           file: ./digital-art-gallery/src/Dockerfile
           push: true
