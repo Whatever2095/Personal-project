@@ -1,0 +1,37 @@
+# ── Dependencies ──────────────────────────────
+node_modules
+.pnp
+.pnp.js
+
+# ── Build outputs ─────────────────────────────
+dist
+dist-ssr
+build
+
+# ── Environment & secrets ─────────────────────
+.env
+.env.*
+!.env.example        # keep the template committed
+
+# ── Logs ──────────────────────────────────────
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── OS & editor noise ─────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Vite cache ────────────────────────────────
+.vite

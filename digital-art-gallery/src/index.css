@@ -1,0 +1,87 @@
+:root {
+  --bg-color: #0f172a; /* Sleek dark mode */
+  --card-bg: #1e293b;
+  --text-main: #f8fafc;
+  --accent: #38bdf8; /* Procreate-esque blue */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  /* This creates the responsive "Auto-flow" effect */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.art-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.art-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: var(--accent);
+}
+
+.art-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* Keeps images uniform */
+  display: block;
+}
+
+.caption-container {
+  padding: 1.5rem;
+}
+
+.sassy-text {
+  font-style: italic;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.story-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: 12px;
+  margin-bottom: 4rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover;
+  border: 3px solid var(--accent);
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}

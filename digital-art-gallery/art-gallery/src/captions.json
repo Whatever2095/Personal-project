@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "name": "Neelima Devulapalli",
+    "title": "The Creative Cluster",
+    "bio": "By day, I’m a Site Reliability Engineer, which is just a fancy way of saying I’m the digital equivalent of a high-wire act ensuring systems stay up while the world tries to knock them down. But once the terminal is closed, my world shifts from code to color. I trade my server logs for Procreate layers, my technical documentation for a good book, and my Slack notifications for the quiet hum of a coffee shop. This website is my digital playground: a curated 'uptime' for my random paintings and creative experiments. You’ll find that I approach a canvas with the same intensity I bring to a production incident: with a sharp fashion sense, a double-shot coffee in hand, and a refusal to accept anything less than aesthetic perfection. Welcome to my gallery, where the only thing more reliable than my systems is my commitment to a bold red sweater and a perfectly blended brushstroke..",
+    "profile_image": "My-pic.jpg"
+  },
+  "gallery": 
+[
+  {
+    "id": 1,
+    "image": "Gallery-pic-1.jpg",
+    "title": "The Forest Campfire",
+    "story": "The tall pines whispered secrets to the fog, but the fire didn’t care for secrets. It only knew how to dance. We sat there until our clothes smelled like woodsmoke and the stars felt close enough to touch."
+  },
+  {
+    "id": 2,
+    "image": "Gallery-pic-2.jpg",
+    "title": "Streetlights & Clouds",
+    "story": "The sun gave up for the day, leaving the heavy lifting to the hum of the electric poles. Even under a bruised sky, these three steady glows promised that the way home would stay lit."
+  },
+  {
+    "id": 3,
+    "image": "Gallery-pic-3.jpg",
+    "title": "Cosmic Marble",
+    "story": "It felt like someone had spilled a bucket of galaxies onto a canvas. Purple collided with deep ocean blue, creating a world where gravity was just a suggestion and every swirl was a new beginning."
+  },
+  {
+    "id": 4,
+    "image": "Gallery-pic-4.jpg",
+    "title": "Birds over the Shore",
+    "story": "From up here, the world is just two colors: the endless reach of the blue and the warm static of the sand. Five wings beat in rhythm, chasing the edge of the tide where the water finally meets the earth."
+  },
+  {
+    "id": 5,
+    "image": "Gallery-pic-5.jpg",
+    "title": "The Morning Moka",
+    "story": "The kitchen was still silent, save for the first gurgle of the pot. It’s a silver monument to the day’s first ritual—the bitter, dark magic that turns 'nearly awake' into 'ready'."
+  },
+  {
+    "id": 6,
+    "image": "Gallery-pic-6.jpg",
+    "title": "Rain through the Umbrella",
+    "story": "The city becomes a beautiful blur when seen through a shield of plastic and raindrops. Every light is a soft-focus dream, and for a moment, the storm feels like a sanctuary instead of a nuisance."
+  },
+  {
+    "id": 7,
+    "image": "Gallery-pic-7.jpg",
+    "title": "The Neon Leopard",
+    "story": "Why blend into the tall grass when you were born to glow? She wears the colors of a thousand sunsets and a dozen midnights, proving that grace is even more powerful when it refuses to be invisible."
+  },
+  {
+    "id": 8,
+    "image": "Gallery-pic-8.jpg",
+    "title": "The Intricate Mandala",
+    "story": "A thousand lines born from a single center point. It’s a reminder that even the most complex lives are built one small, steady stroke at a time, glowing with the heat of a sunset."
+  },
+  {
+    "id": 9,
+    "image": "Gallery-pic-9.jpg",
+    "title": "The Cliff's Edge",
+    "story": "The world feels a lot larger when you’re standing at the seam of it. Between where I am and where I want to be lies a great, quiet nothingness—but the bird reminds me that the gap is only a problem if you’ve forgotten how to fly."
+  },
+  {
+    "id": 10,
+    "image": "Gallery-pic-10.jpg",
+    "title": "Ocean Spray",
+    "story": "The wave didn’t just hit the shore; it exhaled. A sudden burst of white lace against the turquoise, a reminder that the sea is never truly still, even when it looks like a painting."
+  },
+  {
+    "id": 11,
+    "image": "Gallery-pic-11.jpg",
+    "title": "Midnight Bubbles",
+    "story": "Floating through the void, they carry nothing but a reflection of a light that isn’t there. They are fragile, temporary, and perfect—shimmering ghosts in a velvet sky."
+  },
+  {
+    "id": 12,
+    "image": "Gallery-pic-12.jpg",
+    "title": "Abstract Ripples",
+    "story": "Light tracing the movement of water, or perhaps water tracing the movement of light. It’s a map of a restless surface, where every white line is a pulse and every blue shadow is a secret."
+  }
+]
+}
